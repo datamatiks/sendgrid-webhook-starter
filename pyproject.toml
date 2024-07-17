@@ -1,0 +1,19 @@
+[project]
+name = "sendgrid-webhook-starter"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "nifrali", email = "francisco.liwa@gmail.com"},
+]
+dependencies = [
+    "fastapi>=0.111.0",
+    "confluent-kafka>=2.4.0",
+    "sendgrid>=6.11.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
